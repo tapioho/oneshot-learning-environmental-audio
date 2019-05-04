@@ -21,6 +21,6 @@ blocks followed by a fully connected layer.
 
 ## How to use <a name="how-to-use"></a>
 1. Download [ESC-50](https://github.com/karoldvl/ESC-50) and move it to the root of this repository (or change the data path variable in main.py)
-2. Run main.py. The script should start by calculating a mel-log scaled spectrogram for each audio sample from the dataset. The spectra are then saved for future, i.e. the next time the script is run the spectra are not required to be calculated.
+2. Run main.py. The script should start by steting up the environment, reading audio files and calculating a mel-log scaled spectrogram for each audio sample. The spectra are then saved for future, i.e. the next time the script is run the spectra are not required to be calculated.
 3. Next, the script will start the training procedure.
 4. Finally, the results for the evaluation are calculated, visualized and saved.
