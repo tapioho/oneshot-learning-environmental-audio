@@ -2,10 +2,17 @@
 The purpose of this reposirory is to provide a working example of a oneshot learning implementation utilizing siamese networks for environmental audio classification. This code was done as part of a BSc thesis
 
 ## Table of contents
-1. [Dataset](#dataset)
-2. [Model](#model)
-3. [How to use](#how-to-use)
+1. [Dependencies](#dependencies)
+2. [Dataset](#dataset)
+3. [Model](#model)
+4. [How to use](#how-to-use)
 
+## Dependencies <a name="dependencies"></a>
+- Keras
+- Hyperopt
+- LibROSA
+- scikit-learn
+- Matplotlib
 
 ## Dataset <a name="dataset"></a>
 For this example script, the ESC-50 dataset is used. The dataset is available here: [ESC-50](https://github.com/karoldvl/ESC-50)
