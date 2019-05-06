@@ -1,5 +1,5 @@
 # Oneshot Learning with Siamese Networks for Environmental Audio
-The purpose of this reposirory is to provide a working example of a oneshot learning implementation utilizing siamese networks for environmental audio classification. This code was done as part of a BSc thesis
+The purpose of this reposirory is to provide a working example of a oneshot learning implementation utilizing siamese networks for environmental audio classification. This code was done as part of a BSc thesis at Tampere University.
 
 ## Table of contents
 1. [Dependencies](#dependencies)
@@ -23,8 +23,11 @@ The model consists of two convolutional input networks, followed by
 a merging layer and a final output layer. The input networks share the same architecture
 and weights in order to act as identical encoding layers for both inputs. This also
 means that the weights are updated simultaneously for both networks during training.
-The proposed architecture for a single input network consists of several convolutional
-blocks followed by a fully connected layer.
+The basic idea of the model is illustrated below.
+
+<img src="figures/siamese-model.PNG" alt="Siamese network"
+title="Siamese network" width="800" height="500"/>
+
 
 ## How to use <a name="how-to-use"></a>
 Download [ESC-50](https://github.com/karoldvl/ESC-50) and move it to the root of this repository (or change the data path variable in main.py/parameter_optimization.py)
