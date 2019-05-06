@@ -16,7 +16,7 @@ The purpose of this reposirory is to provide a working example of a oneshot lear
 
 ## Dataset <a name="dataset"></a>
 For this example script, the ESC-50 dataset is used. The dataset is available here: [ESC-50](https://github.com/karoldvl/ESC-50)
-Clone the repository to the root of this repository, or alternative change the data path variable in main.py/parameter_optimization.py
+Clone the repository to the root of this repository, or alternative change the data path variable in main.py or parameter_optimization.py
 
 ## Model <a name="model"></a>
 The model consists of two convolutional input networks, followed by
@@ -30,7 +30,7 @@ title="Siamese network" width="915" height="500"/>
 
 
 ## How to use <a name="how-to-use"></a>
-Download [ESC-50](https://github.com/karoldvl/ESC-50) and move it to the root of this repository (or change the data path variable in main.py/parameter_optimization.py)
+Download [ESC-50](https://github.com/karoldvl/ESC-50) and move it to the root of this repository (or change the data path variable in main.py or parameter_optimization.py)
 
 ### Train and evaluate a siamese network
 1. Run main.py. The script should start by setting up the environment, reading audio files and calculating a mel-log scaled spectrogram for each audio sample. The spectra are then saved for future, i.e. the next time the script is run the spectra are not required to be calculated.
