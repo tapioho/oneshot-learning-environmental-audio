@@ -26,7 +26,7 @@ if __name__ == '__main__':
     X_train, X_oneshot_val, y_train, y_oneshot_val = pre_processing.class_split(X,y,split_size=0.9, seed=3)   
     X,y = None, None  # release memory
     
-    # Addinitional axis for 2D Conv
+    # Additional axis for 2D Conv
     X_train = X_train[:,:,:,np.newaxis]
     X_oneshot_test = X_oneshot_test[:,:,:,np.newaxis]
     X_oneshot_val = X_oneshot_val[:,:,:,np.newaxis]
