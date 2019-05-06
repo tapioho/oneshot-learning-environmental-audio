@@ -26,7 +26,7 @@ means that the weights are updated simultaneously for both networks during train
 The basic idea of the model is illustrated below.
 
 <img src="figures/siamese-model.PNG" alt="Siamese network"
-title="Siamese network" width="800" height="500"/>
+title="Siamese network" width="900" height="500"/>
 
 
 ## How to use <a name="how-to-use"></a>
