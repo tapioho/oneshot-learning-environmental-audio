@@ -1,5 +1,5 @@
 # Oneshot Learning with Siamese Networks for Environmental Audio
-The purpose of this reposirory is to provide a working example of a oneshot learning implementation utilizing siamese networks for environmental audio classification. This code was done as part of a BSc thesis at Tampere University.
+The purpose of this reposirory is to provide a working example of a oneshot learning implementation utilizing siamese networks for environmental audio classification. This code was done as part of a BSc thesis at Tampere University and can be found [here](https://trepo.tuni.fi/handle/123456789/27387).
 
 ## Table of contents
 1. [Dependencies](#dependencies)
